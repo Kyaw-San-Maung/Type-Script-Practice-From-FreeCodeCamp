@@ -12,4 +12,14 @@ userId.toFixed();
 
 let isLogin = true;
 
+//any
+
+let login:any;
+
+function getHero() {
+    return "Thor"
+}
+
+login = getHero();
+
 export {}
