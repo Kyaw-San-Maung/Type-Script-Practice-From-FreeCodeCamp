@@ -27,4 +27,14 @@ function userLogin(name:String, email:String, password:number, isPaid:boolean) {
 }
 
 userLogin("Kyaw San Maung","Kyaw@gmail.com",3325, false)
+
+
+// Function control in TypeScript
+
+const addTwoNumber = (num1: number):number => {
+    return num1 + 2;
+}
+
+let myValue = addTwoNumber(8)
+
 export {}
