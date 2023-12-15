@@ -37,4 +37,21 @@ const addTwoNumber = (num1: number):number => {
 
 let myValue = addTwoNumber(8)
 
-export {}
+
+// Function control more than one type number or string or boolean
+// Case One
+// function getValue(myValue: number):boolean {
+//     if (myValue > 5) {
+//         return true;
+//     }
+//     return "200 ok"
+// }
+
+// Map practise with array
+
+const Heros = ["SpiderMan", "Iron Man", "Thor", "Hulk"];
+// const Heros = [1, 2, 3, 4];
+Heros.map((hero):string => {
+    return `I am ${hero}.`
+})
+    export {}
