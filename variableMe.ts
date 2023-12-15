@@ -54,4 +54,17 @@ const Heros = ["SpiderMan", "Iron Man", "Thor", "Hulk"];
 Heros.map((hero):string => {
     return `I am ${hero}.`
 })
+
+//Good practice for the function not return typ "void" by using tsc
+
+function consoleError(errorMessage:string):void {
+    console.log(errorMessage);
+    
+}
+
+//Handling Error function never return value "never"
+function handleError(msg:string):never {
+    throw new Error(msg)
+    
+}
     export {}
