@@ -22,4 +22,9 @@ function getHero() {
 
 login = getHero();
 
+function userLogin(name:String, email:String, password:number, isPaid:boolean) {
+    
+}
+
+userLogin("Kyaw San Maung","Kyaw@gmail.com",3325, false)
 export {}
