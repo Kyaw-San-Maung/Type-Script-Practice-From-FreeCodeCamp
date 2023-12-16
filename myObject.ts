@@ -17,5 +17,18 @@ function createCourse(): {name: String, price: number}{
     return {name: "Reactjs", price:499}
 }
 
+//Type aliases
+//What if we having thousand of argument
 
+type point = {
+    x: number;
+    y: number;
+}
+
+function myFunction(pt: point) {
+    console.log("The number of x is : " + pt.x);
+    console.log("The number of y is : " + pt.y);
+}
+
+myFunction({x:100, y:100})
 export{}
