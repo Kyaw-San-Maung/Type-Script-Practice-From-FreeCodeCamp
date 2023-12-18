@@ -29,3 +29,7 @@ function getDbId(id: number | string) {
 
 getDbId(2);
 getDbId("2")
+
+//Array
+
+const data: (number | string)[] = [ 1, 2, 3, 4, "5"]
