@@ -32,4 +32,12 @@ getDbId("2")
 
 //Array
 
-const data: (number | string)[] = [ 1, 2, 3, 4, "5"]
+const data: (number | string)[] = [1, 2, 3, 4, "5"]
+
+
+// literal use type
+
+let ArroPlaneSeat: "Asile" | "middle" | "window"
+
+ArroPlaneSeat = "middle";
+// ArroPlaneSeat = "Top"
